@@ -1,0 +1,25 @@
+# write a function that determines whatever the second array is a subsequence of the first one
+  array = [5,1,22,25,6,-1,8,10]
+  sequence = [1,6,-1,10]
+
+
+def isASubsequence(array, sequence):
+#starting the code creating a sequence counter variable 
+  seqIdx = 0
+
+#creating a for loop that traverses the first array
+  for num in array:
+#restrict so that the seqIdx doesn't go out of bounds
+    if seqIdx < len(sequence):
+#checking if the array element matches the sequence element
+    if num == sequence[seqIdx]:
+#incrementing sequence index
+    seqIdx = seqIdx + 1
+#testing if the sequence id is the same length as the sequence and then returns true 
+         if they are and false if aren't
+    if seqIdx == len(sequence):
+      return True
+    else:
+      return False
+      
+      
