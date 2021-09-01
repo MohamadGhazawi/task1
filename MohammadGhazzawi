@@ -6,15 +6,15 @@ import java.util.Set;
 /**
 * Java Program to find duplicate characters in String.
 *
-*
-*
+* 
+* @author Mohamad
 */
 public class FindDuplicateCharacters{
 
     public static void main(String args[]) {
         printDuplicateCharacters("Programming");
         printDuplicateCharacters("C++");
-        printDuplicateCharacters("Java and javascript");
+        printDuplicateCharacters("java and javascript");
     }
 
     /*
